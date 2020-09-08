@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.btn-primary {
+  padding: 12px 20px;
+  width: 130px;
+  max-width: 100%;
+  background: #4f7df3;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0;
+}
+.showcase .text-container h1 span {
+  color: #969696;
+  font-weight: 300;
+}
+.showcase .text-container p {
+  font-size: 1rem;
+}
+.showcase .text-container .form-header .form-control input {
+  padding: 12px 20px;
+  margin: 0 5px;
+  border: 1px solid #c2d3ff;
+  border-radius: 20px;
+  width: 300px;
+  max-width: 100%;
+}
+.showcase .text-container .form-header .form-control small {
+  color: #ff5263;
+  position: absolute;
+  top: 260px;
+  left: 450px;
+  visibility: hidden;
+  font-size: 0.8rem;
+}
+.showcase .text-container .form-header .error input {
+  border: 1px solid #ff5263;
+}
+.showcase .text-container .form-header .error small {
+  visibility: visible;
+  font-style: italic;
+}
+.showcase .text-container .form-header .success input {
+  border: 1px solid green;
+}
+.showcase .img-container img {
+  width: 100%;
+}
+.showcase .icons i {
+  color: #4f7df3;
+  padding-left: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+.showcase .copy {
+  font-size: 0.8rem;
+  color: #969696;
+}
+
+footer .attribution {
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 376px) {
+  .showcase .text-container h1 {
+    font-size: 1.6rem;
+  }
+  .showcase .text-container .form-header .form-control small {
+    color: #ff5263;
+    position: absolute;
+    top: 235px;
+    left: 50px;
+    font-size: 0.8rem;
+  }
+  .showcase .text-container .form-header .form-control .btn-primary {
+    margin: 1rem 0;
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

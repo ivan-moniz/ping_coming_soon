@@ -1,0 +1,26 @@
+@media (max-width: 376px) {
+  .showcase {
+    .text-container {
+      h1 {
+        font-size: 1.6rem;
+      }
+      .form-header {
+        .form-control {
+          small {
+           color: $light-red;
+           position: absolute;
+           top: 235px;
+           left: 50px;
+           font-size: .8rem;
+          }
+
+          .btn-primary {
+            margin: 1rem 0;
+            width: 80%;
+          }
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,16 @@
+%btn {
+
+  padding: 12px 20px;
+  width: 130px;
+  max-width: 100%;
+  background: $primary-color;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-primary {
+  @extend %btn;
+}

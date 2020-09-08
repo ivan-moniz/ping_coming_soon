@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+@import 'config';
+@import 'utilities';
+@import 'buttons';
+
+body {
+  font-family: $font-stack;
+  font-size: 20px;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0;
+
+  .text-container {
+    h1 {
+      span {
+        color: $gray-color;
+        font-weight: 300;
+      }
+    }
+    p {
+      font-size: 1rem;
+    }
+    .form-header {
+      .form-control {
+        input {
+          padding: 12px 20px;
+          margin: 0 5px;
+          border: 1px solid $secondary-color;
+          border-radius: 20px;
+          width: 300px;
+          max-width: 100%;
+        }
+
+         small {
+          color: $light-red;
+          position: absolute;
+          top: 260px;
+          left: 450px;
+          visibility: hidden;
+          font-size: .8rem;
+         }
+      }
+      .error {
+        input {
+          border: 1px solid $light-red;
+        }
+        small {
+          visibility: visible;
+          font-style: italic;
+        }
+      }
+
+      .success {
+        input {
+          border: 1px solid green;
+        }
+      }
+    }
+  }
+
+  .img-container {
+    img {
+      width: 100%;
+    }
+  }
+
+  .icons {
+    i {
+      color: $primary-color;
+      padding-left: 1rem;
+      cursor: pointer;
+      text-align: center;
+    }
+  }
+
+  .copy {
+    font-size: .8rem;
+    color: $gray-color;
+  }
+}
+
+footer {
+  .attribution {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@import 'mobile';

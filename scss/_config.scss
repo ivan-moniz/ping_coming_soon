@@ -1,0 +1,15 @@
+$font-stack: 'Libre Franklin', sans-serif;
+
+// colors
+$primary-color: hsl(223, 87%, 63%);
+$secondary-color: hsl(223, 100%, 88%);
+$light-red: hsl(354, 100%, 66%);
+$gray-color: hsl(0, 0%, 59%);
+$dark-blue: hsl(209, 33%, 12%);
+
+// page reset
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
